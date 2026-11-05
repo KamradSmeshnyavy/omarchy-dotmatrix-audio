@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "kamradsmeshnyavy.audio",
+  "name": "DOT-MATRIX Sound",
+  "version": "1.0.0",
+  "author": "KamradSmeshnyavy",
+  "license": "MIT",
+  "description": "Sound panel: output and input devices, volume and per-app mixer — the stock Omarchy bar widget in the DOT-MATRIX style",
+  "homepage": "https://github.com/KamradSmeshnyavy/omarchy-dotmatrix-audio",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "DOT-MATRIX sound",
+    "description": "Omarchy audio panel in the DOT-MATRIX style",
+    "category": "Audio",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.audio"
+  }
+}
